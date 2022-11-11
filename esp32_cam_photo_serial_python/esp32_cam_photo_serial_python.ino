@@ -90,7 +90,7 @@ void setup() {
   }
 
   //Serial.println("Starting SD Card");
-  if (!SD_MMC.begin()) {
+  /*if (!SD_MMC.begin()) {
     //Serial.println("SD Card Mount Failed");
     return;
   }
@@ -99,7 +99,7 @@ void setup() {
   if (cardType == CARD_NONE) {
     //Serial.println("No SD Card attached");
     return;
-  }
+  }*/
 }
 
 int sira = 0;
